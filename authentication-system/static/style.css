@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a9c9ff, #6895e2); /* Gradient background */
+    background-repeat: no-repeat;    
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 400px;
+    margin: 100px auto;
+    background: rgba(104, 149, 226, 0.9); /* Transparent background */
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background: #1d5faa;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background: #163d72; /* Darker shade on hover */
+}
+
+/* Add global box-sizing for easier layout handling */
+* {
+    box-sizing: border-box;
+}
